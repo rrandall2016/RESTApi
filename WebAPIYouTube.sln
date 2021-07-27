@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIProject1", "WebAPIYouTube\WebAPIProject1.csproj", "{DD24B16D-CA25-44BE-A365-702468424221}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{BD225E4C-3BEF-4F57-A0D9-9C952E719751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStore.EF", "DataStore.EF\DataStore.EF.csproj", "{30B281BB-4EE8-4C87-9417-014B0EFE20FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD24B16D-CA25-44BE-A365-702468424221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD24B16D-CA25-44BE-A365-702468424221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD24B16D-CA25-44BE-A365-702468424221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD24B16D-CA25-44BE-A365-702468424221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD225E4C-3BEF-4F57-A0D9-9C952E719751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD225E4C-3BEF-4F57-A0D9-9C952E719751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD225E4C-3BEF-4F57-A0D9-9C952E719751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD225E4C-3BEF-4F57-A0D9-9C952E719751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B281BB-4EE8-4C87-9417-014B0EFE20FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B281BB-4EE8-4C87-9417-014B0EFE20FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B281BB-4EE8-4C87-9417-014B0EFE20FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B281BB-4EE8-4C87-9417-014B0EFE20FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80E5C50A-CDD2-49C8-8C6A-F80325745FF0}
+	EndGlobalSection
+EndGlobal
